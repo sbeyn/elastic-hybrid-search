@@ -1,0 +1,36 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "# NLP text search using hugging face transformer model\n",
+    "\n",
+    "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elastic/elasticsearch-labs/blob/main/notebooks/integrations/hugging-face/loading-model-from-hugging-face.ipynb)\n",
+    "\n",
+    "The workbook implements NLP text search in Elasticsearch using a simple dataset consisting of Elastic blogs titles.\n",
+    "\n",
+    "You will index blogs documents, and using ingest pipeline generate text embeddings. By using NLP model you will query the documents using natural language over the the blogs documents.\n",
+    "\n",
+    "\n",
+    "## Prerequisities\n",
+    "Before we begin, create an elastic cloud deployment and [autoscale](https://www.elastic.co/guide/en/cloud/current/ec-autoscaling.html) to have least one machine learning (ML) node with enough (4GB) memory. Also ensure that the Elasticsearch cluster is running. \n",
+    "\n",
+    "If you don't already have an Elastic deployment, you can sign up for a free [Elastic Cloud trial](https://cloud.elastic.co/registration?utm_source=github&utm_content=elasticsearch-labs-notebook).\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "zdzl8tmZfr3y"
+   },
+   "source": [
+    "## Install packages and import modules\n",
+    "Before you start you need to install all required Python dependencies."
+   ]
+  }
+]
+}
